@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6a</title>
+    <style>
+        body{
+            background-color: rgb(58, 167, 255);
+        }
+        #tieude1{
+            border: 3px solid black;
+            width: 310px;
+            background-color: aqua;
+            border-radius: 10%;  
+            
+        }
+        #main{
+            width: 760px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="tieude1">
+            <center>
+                <h2>&#10167;&nbsp;&nbsp;&nbsp;&nbsp;Jackson</h2>
+                <hr size="5px" color="black">
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Electronics</h2>
+            </center>
+        </div>
+    </center>
+    <center>
+     <div id="main">
+        <h2>Registration Form</h2>
+        <p>Register your  Jackson Electronics product here</p>
+
+        <table align="left">
+            <tr>
+                <th align="left">First name:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <td>
+                    <form action=""> 
+                        <input type="text" name="firstname">
+                    </form>
+                </td>
+                <th align="left">Last&nbsp;name: </th>
+                <td>
+                    <form action="">
+                        <input type="text" name="lastname">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th align="left">Address#1:</th>
+                <td>
+                    <form action="">
+                        <input type="text" name="Address#1" size="35">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th align="left">Address#2:</th>
+                <td>
+                    <form action="">
+                        <input type="text" name="Address#2" size="35">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th align="left">City: </th>
+                <td>
+                    <form action="">
+                        <input type="text" name="city">
+                    </form>
+                </td>
+                <th align="left">State:</th>
+                <td>
+                    <form action="">
+                        <input type="text" name="state" size="3">
+                    </form>
+                </td>
+                <th>Zip:</th>
+                <td>
+                    <form action="">
+                        <input type="text" name="zip" size="5">
+                    </form>    
+                </td>
+            </tr>
+            <tr>
+                <th align="left">Country:</th>
+                <td>
+                    <input type="text" name="Country" value="United States">
+                </td>
+            </tr>
+        </table>
+       <hr width="760px" color="black">
+
+        <table align="left">
+            <tr>
+                <th align="left">Product</th>
+                <td>
+                    <select name="product">
+                        <optgroup>
+                            <option value="ScanMaster">Scan Master</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th align="left">Date Purchased</th>
+                <td>
+                    <input type="text" name="date puerchased">
+                </td>
+            </tr>
+            <tr>
+                <th align="left">Serial#</th>
+                <td>
+                    <input type="text" name="serial#">
+                </td>
+            </tr>
+            <tr>
+                <th align="left">User for:</th>
+                <td><input type="radio" name="user for" value="Home">Home</td>
+                <td><input type="radio" name="user for" value="Educational Institusion">Educational Institusion</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="radio" name="user for" value="Business">Business</td>
+                <td><input type="radio" name="user for" value="Other">Other</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="radio" name="user for" value="Government">Government</td>
+            </tr>
+            <tr>
+                <th align="left">System (check all that apply):</th>
+                <td><input type="checkbox" name="system" value="windows">Windows</td>
+                <td><input type="checkbox" name="system" value="UNIX">UNIX</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="checkbox" name="system" value="Macintosh">Macintosh</td>
+                <td><input type="checkbox" name="system" value="Other">Other</td>
+            </tr>
+        </table>
+
+        <hr width="760px" color="black">
+        <table align="left">
+            <tr>
+                <th align="left" valign="top">Comments ?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <td><form>
+                    <textarea rows=4 cols=50 name=comments>
+                    </textarea>
+                    </form>
+                </td>
+            </tr>
+        </table> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="Click to Register">
+        <input type="reset" name="reset" value="Click to cancel">
+            
+         
+            
+            
+
+            
+    </div>
+    </center>
+</body>
+</html>
