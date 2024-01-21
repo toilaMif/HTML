@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+#main{
+    width: 1000px;
+    height: 680px;
+    border: 1px rgb(192, 39, 0) solid;
+}
+header{
+    width: 100%;
+    height: 20%;
+    /* border: 1px red solid; */
+    
+}
+#n1{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    top: 49px;
+}
+section{
+    width: 100%;
+    height: 30%;
+    /* border: 1px red solid; */
+}
+#n2,#n3{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    /* border: 1px black solid; */
+    top: 0px;
+    background-color: rgba(144, 148, 35, 0.196);
+}
+#tieude{
+    position: relative;
+    color: rgb(192, 39, 0);
+    font-size:40px;
+    text-align: center;
+    top: 25px;
+    text-shadow: 18px 31px 15px  rgba(212, 44, 2, 0.415);
+}
+#ul1{
+    list-style-type: none;
+   
+}
+.li1{
+    position: relative;
+    display: inline;
+    width: 100px;
+    line-height: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    top:10px;
+}
+.aa1{
+    text-decoration: none;
+}
+#Starters,#Desserts{
+    color: rgb(192, 39, 0);
+    font-size:50px;
+}
+.aa2{
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+}
+.li2{
+    font-size: 20px;
+}
+p:hover{
+    color: orange;
+    font-weight: 800;
+}
