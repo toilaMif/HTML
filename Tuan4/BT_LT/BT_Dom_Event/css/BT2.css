@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+#main{
+    text-align: center;
+}
+#button{
+    text-align: center;
+    margin: 20px;
+}
+img{
+    width: 1000px;
+    height: 500px;
+    
+}

@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#main{
+    width: 500px;
+    height: 500px;
+    border: 3px dashed black;
+}
+#button{
+    margin: 20px;
+    text-align: center;
+}
