@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <script src="../js/form.js"></script>
+</head>
+<body>
+    <div id="main">
+        <section>
+        <h1>Log In</h1>
+        <h2>Name:</h2>
+        <input type="text" name="name" id="name" placeholder="VD: Nguyen Thanh Trung / NGUYEN THANH TRUNG" onmouseover="thongbao()" onmouseout="tatthongbao()">
+        <img src="../image/v-removebg-preview.png" alt="" id="imgv1">
+        <img src="../image/x.png" alt="" id="imgx1">
+        <nav id="nav1">
+            <p id="nav1p">Chữ cái đầu viết hoa hoặc viết hoa hoàn toàn (Không dấu)</p>
+        </nav>
+        
+        <h2>PassWord:</h2>
+        <input type="text" name="ps" id="ps" placeholder="Nhập mật khẩu 8-20" onmouseover="thongbao1()" onmouseout="tatthongbao1()">
+        <img src="../image/v-removebg-preview.png" alt="" id="imgv2">
+        <img src="../image/x.png" alt="" id="imgx2">
+        <nav id="nav2">
+            <p id="nav1p">Mật khẩu chứa các ký tự, số và ký tự đặt biệt, có chiều dài từ 8-20</p>
+        </nav>
+
+        <h2>Phone Number:</h2>
+        <input type="text" name="pn" id="pn" placeholder="Nhập số điện thoại" onmouseover="thongbao2()" onmouseout="tatthongbao2()">
+        <img src="../image/v-removebg-preview.png" alt="" id="imgv3">
+        <img src="../image/x.png" alt="" id="imgx3">
+        <nav id="nav3">
+            <p id="nav1p">Số Điện Thoại ở Việt Nam 10 số (đầu số 02-09)</p>
+        </nav>
+
+        <h2>Email:</h2>
+        <input type="text" name="email" id="email" placeholder="Nhập Email VD: abcABC123@gmail.com" onmouseover="thongbao3()" onmouseout="tatthongbao3()">
+        <img src="../image/v-removebg-preview.png" alt="" id="imgv4">
+        <img src="../image/x.png" alt="" id="imgx4">
+        <nav id="nav4">
+            <p id="nav1p">Email gồm chữ thường, chữ hoa, ký tự đặt biệt, số, đuôi @gmail.com</p>
+        </nav>
+
+        <input type="submit" name="submit" id="submit" onclick="kiemtra()">
+    </div>
+</body>
+</html> 

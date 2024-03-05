@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;  
+}
+#main{
+    position: relative;
+    height: 800px;
+    width: 1000px;
+    background-image: url(../image/delicious\ pizza\ \(Instagram\ Post\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.347);
+}
+section{
+    position: absolute;
+    top: 110px;
+    right: 65px;
+    height: 70%;
+    width: 50%;
+    /* border: 3px dotted rgb(175, 37, 37); */
+    background-color: rgba(224, 240, 255, 0.423);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(255, 207, 75, 0.5);
+    
+
+}
+h1{
+  margin: 20px;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+#name, #ps, #pn, #email{
+  background-color: rgba(255, 207, 75, 0.5);
+  border: 0;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 50px;
+  box-shadow: 3px 3px 3px black ;
+}
+#submit{
+  border: 0;
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 200px;
+  height: 40px;
+  box-shadow: 3px 3px 3px black ;
+}
+#submit:hover{
+  /* color: rgba(255, 207, 75, 0.5); */
+    background-color: rgba(252, 234, 187, 0.7);
+  /* background-color: rgba(224, 240, 255, 0.423); */
+}
+#nav1{
+  position: absolute;
+  background-image: url(../image/Thiết_kế_chưa_có_tên-removebg-preview.png);
+  width: 200px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: 190px 120px;
+  top: 170px;
+  left: 100px;
+  display: none;
+  /* border: 1px solid black; */
+}
+#imgv1{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 120px;
+  display: none;
+}
+#imgx1{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 120px;
+  display: none;
+}
+#nav2{
+  position: absolute;
+  background-image: url(../image/Thiết_kế_chưa_có_tên-removebg-preview.png);
+  width: 200px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: 190px 125px;
+  top: 265px;
+  left: 100px;
+  display: none;
+  /* border: 10px solid black; */
+}
+#imgv2{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 220px;
+  display: none;
+}
+#imgx2{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 220px;
+  display: none;
+}
+#nav3{
+  position: absolute;
+  background-image: url(../image/Thiết_kế_chưa_có_tên-removebg-preview.png);
+  width: 200px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: 190px 110px;
+  top: 365px;
+  left: 100px;
+  display: none;
+  /* border: 10px solid black; */
+}
+#imgv3{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 320px;
+  display: none;
+}
+#imgx3{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 320px;
+  display: none;
+}
+#nav4{
+  position: absolute;
+  background-image: url(../image/Thiết_kế_chưa_có_tên-removebg-preview.png);
+  width: 200px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: 190px 125px;
+  top: 465px;
+  left: 100px;
+  display: none;
+  /* border: 10px solid black; */
+}
+#imgv4{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 420px;
+  display: none;
+}
+#imgx4{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 420px;
+  display: none;
+}
+#nav1p{
+  position: absolute;
+  width: 70%;
+  top: 35px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-weight: 500;
+}
