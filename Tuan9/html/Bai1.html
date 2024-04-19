@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+    <link rel="stylesheet" href="../css/bai1.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bai1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <nav>
+            <ul>
+                <li><a id="trangchu" href="">Trang Chủ</a></li>
+                <li><a id="dangky" href="" data-toggle="modal" data-bs-target="#myModal" onclick="moModal()">Đăng ký</a></li>
+            </ul>
+        </nav>
+        <section>
+            <center><H3>LIST OF MEMBERS</H3></center>
+            <table class="table table-bodered table-hover">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ  và Tên</th>
+                        <th>Giới tính</th>
+                        <th>Số điện Thoại</th>
+                        <th>Ngày sinh</th>
+                        <th>Địa chỉ</th>
+                        <th>Khóa học</th>
+                        <th>Học Phí</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nguyễn Thành Trung</td>
+                        <td>Nam</td>
+                        <td>0396611627</td>
+                        <td>22/09/2004</td>
+                        <td>125/37, An Phú Đông 13, Quận 12, TP.HCM</td>
+                        <td>10 Tuần</td>
+                        <td>100000</td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg bg-white">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 style="margin-left: 300px;">THÔNG TIN HỌC VIÊN</h6>
+                    <a href="" data-dismiss="modal">x</a>
+                </div>
+                <div class="modal-body">
+                    <div class="row p-2" >
+                        <div class="col-3"><b>Họ Và Tên</b></div>
+                        <div class="col-9">
+                            <form action="">
+                                <input type="text" name="name" id="Name" class="form-control" onblur="ktName()">
+                                <span style="color: red;" id="errName">(*)</span>
+                            </form>
+                            
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-3"><b>Số điện Thoại</b></div>
+                        <div class="col-9">
+                            <form action="">
+                                <input type="tel" class="form-control" id="sdt" name="sdt" onblur="ktSDT()">
+                                <span id="errSDT" style="color: red;">(*)</span>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-3"><b>Ngày sinh</b></div>
+                        <div class="col-9">
+                            <form action="">
+                                <input type="date" class="form-control" id="ngaysinh" onchange="kttuoi()">
+                                <span id="errNgaySinh" style="color: red;">*</span>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-3"><b>địa chỉ</b></div>
+                        <div class="col-9">
+                            <form action="">
+                                <input type="text" class="form-control" id="diachi">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-3"><b>Bạn muốn tham gia khóa học nào?</b></div>
+                        <div class="col-9">
+                            <form action="">
+                               <select name=""  class="form-control" id="khoahoc">
+                                <optgroup>
+                                    <option value="">Khóa học</option>
+                                    <option value="Khóa 2 tuần">Khóa 2 tuần</option>
+                                    <option value="Khóa 4 tuần">Khóa 4 tuần</option>
+                                    <option value="Khóa 6 tuần">Khóa 6 tuần</option>
+
+                                </optgroup>
+                               </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-3"><b>Học Phí</b></div>
+                        <div class="col-9">
+                            <form action="">
+                                <input type="number" class="form-control" id="hocphi">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-3"><b>ảnh đại điện</b></div>
+                        <div class="col-9">
+                            <form action="">
+                                <input type="file" accept="image/*" class="form-control">
+                                <span class="errimg" style="color: red;">*</span>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <button data-dismiss="modal" type="submit" class="btn" id="luu" style="width: 100%; background-color: yellowgreen;">Lưu</button>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
